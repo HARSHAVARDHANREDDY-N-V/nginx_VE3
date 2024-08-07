@@ -20,7 +20,6 @@ jobs:
         id: login-ecr
         uses: aws-actions/amazon-ecr-login@v2
         with:
-          aws_region: 'us-east-1'
           mask-password: true
           registry-type: private
           skip-logout: false
